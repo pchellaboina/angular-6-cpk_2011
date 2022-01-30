@@ -5,7 +5,7 @@ import { RouterLinkRendererComponent } from './router-link-renderer/router-link-
 
 @Component({
   selector: 'app-my-grid-application',
-  templateUrl: './my-grid-application.component.html',
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
   private gridOptions: GridOptions;
