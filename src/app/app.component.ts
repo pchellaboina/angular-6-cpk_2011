@@ -23,7 +23,7 @@ export class MyGridApplicationComponent {
         field: 'assetName',
         cellRendererFramework: RouterLinkRendererComponent,
         cellRendererParams: {
-          inRouterLink: '[/users/details/]',
+          inRouterLink: '[/assets/details/]',
         },
       },
       {
