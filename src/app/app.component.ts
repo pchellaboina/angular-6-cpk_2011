@@ -3,7 +3,7 @@ import { GridOptions } from 'ag-grid';
 import { RouterLinkRendererComponent } from './router-link-renderer/router-link-renderer.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'my-app',
   templateUrl: './app.component.html',
 })
 export class AppComponent {
