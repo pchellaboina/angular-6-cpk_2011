@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { RouterLinkRendererComponent } from './router-link-renderer/router-link-renderer.component';
 import { RouterModule } from '@angular/router';
+import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
   imports: [
