@@ -1,12 +1,13 @@
 // src/app/my-grid-application/my-grid-application.component.ts
 import { Component } from '@angular/core';
 import { GridOptions } from 'ag-grid';
+import { RouterLinkRendererComponent } from './router-link-renderer/router-link-renderer.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
 })
-export class MyGridApplicationComponent {
+export class AppComponent {
   private gridOptions: GridOptions;
 
   constructor() {
