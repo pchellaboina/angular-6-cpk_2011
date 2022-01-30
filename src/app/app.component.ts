@@ -1,10 +1,11 @@
+// src/app/my-grid-application/my-grid-application.component.ts
 import { Component } from '@angular/core';
 import { GridOptions } from 'ag-grid';
 import { RouterLinkRendererComponent } from './router-link-renderer/router-link-renderer.component';
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
+  selector: 'app-my-grid-application',
+  templateUrl: './my-grid-application.component.html',
 })
 export class AppComponent {
   private gridOptions: GridOptions;
@@ -33,9 +34,9 @@ export class AppComponent {
       },
     ];
     this.gridOptions.rowData = [
-      { assetId: 5, assetName: 'Five' },
-      { assetId: 10, assetName: 'Ten' },
-      { assetId: 15, assetName: 'Fifteen' },
+      { id: 5, value: 10 },
+      { id: 10, value: 15 },
+      { id: 15, value: 20 },
     ];
   }
 }
