@@ -1,12 +1,11 @@
 import { Component, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 import { AgRendererComponent } from 'ag-grid-angular';
-
-@Component({
-  /* This commented code needs to be added in the template
+/* This commented code needs to be added in the template
   <a *ngIf="dataItem.assetStatus === 0"
   [routerLink]="['/assets/details/'+dataItem.assetId]">{{dataItem.assetName}}</a>
   <span *ngIf="dataItem.assetStatus === 1">{{dataItem.assetName}}</span>*/
+@Component({
   template: `<a [routerLink]="[params.inRouterLink,params.value]"  (click)="navigate(params.inRouterLink)">{{params.data.value}}</a>`,
 })
 export class RouterLinkRendererComponent implements AgRendererComponent {
