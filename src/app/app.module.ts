@@ -7,10 +7,12 @@ import { RouterLinkRendererComponent } from './router-link-renderer/router-link-
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, AgGridModule.withComponents([
-    RouterLinkRendererComponent,
-  ]),
-  RouterModule.forRoot([]),],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    AgGridModule.withComponents([RouterLinkRendererComponent]),
+    RouterModule.forRoot([]),
+  ],
   declarations: [AppComponent, RouterLinkRendererComponent],
   bootstrap: [AppComponent],
 })
